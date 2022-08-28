@@ -25,6 +25,12 @@ Users should be able to:
 
 - View the optimal layout for the site depending on their device's screen size
 - See hover states for all interactive elements on the page
+- See different background images at different times of the day
+- not have to reenter their names and focuses when the page is refreshed.
+
+### the purpose
+
+-creating a dynamic landing page.
 
 ### Screenshot
 
@@ -43,7 +49,7 @@ Users should be able to:
 ## Project Skeleton 
 
 ```
-parallax-website(folder)
+# js_landing_page(folder)
 
 |----README.md                   
 |----img      
@@ -51,7 +57,7 @@ parallax-website(folder)
 |----index.html  
 |----style.css   
 |--- main.js
-|----images
+
 ```
 
 ## My process
