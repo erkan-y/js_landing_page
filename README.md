@@ -68,7 +68,6 @@ parallax-website(folder)
 - [Styled Components](https://styled-components.com/) - For styles
 
 
-
 ### What I learned
 
 I learned how to use Javascript DOM Manipulation, flexboxes, media queries, html elements and many more.
