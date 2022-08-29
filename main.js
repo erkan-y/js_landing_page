@@ -70,15 +70,15 @@ function getName() {
   }
 }
 //* Set Name
-function setName(check) {
-  if (check.type === "keypress") {
+function setName(e) {
+  if (e.type === "keypress") {
     //? make sure enter is pressed
-    if (check.which == 13 || check.keyCode == 13) {
-      localStorage.setItem("name", check.target.innerText);
+    if (e.which == 13 || e.keyCode == 13) {
+      localStorage.setItem("name", e.target.innerText);
       name.blur();
     }
   } else {
-    localStorage.setItem("name", check.target.innerText);
+    localStorage.setItem("name", e.target.innerText);
   }
 }
 
@@ -92,15 +92,15 @@ function getFocus() {
 }
 
 //* Set Focus
-function setFocus(check) {
-  if (check.type === "keypress") {
+function setFocus(e) {
+  if (e.type === "keypress") {
     //? make sure enter is pressed
-    if (check.which == 13 || check.keyCode == 13) {
-      localStorage.setItem("focus", check.target.innerText);
+    if (e.which == 13 || e.keyCode == 13) {
+      localStorage.setItem("focus", e.target.innerText);
       focus.blur();
     }
   } else {
-    localStorage.setItem("focus", check.target.innerText);
+    localStorage.setItem("focus", e.target.innerText);
   }
 }
 
